@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardify - Register</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>CARDIFY - DIGITAL BUSINESS CARD GENERATOR</h1>
+
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Create Your Account</h2>
+
+        <form>
+
+            <label for="fullname">Full name</label>
+            <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                required
+                minlength="2"
+                maxlength="60"
+                placeholder="Enter your full name"
+            >
+
+            <br><br>
+
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Enter your email"
+            >
+
+            <br><br>
+
+            <label for="phone">Phone</label>
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern="[0-9]{7,15}"
+                placeholder="Enter your phone number"
+            >
+
+            <br><br>
+
+            <label for="password">Password</label>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                minlength="8"
+                placeholder="Enter password"
+            >
+
+            <br><br>
+
+            <label for="confirmPassword">Confirm password</label>
+            <input
+                type="password"
+                id="confirmPassword"
+                name="confirmPassword"
+                required
+                placeholder="Confirm your password"
+            >
+
+            <br><br>
+
+            <button type="submit">Create account</button>
+
+        </form>
+
+        <p>
+            Already registered?
+            <a href="login.html">Log in</a>
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cardify.</p>
+    </footer>
+
+</body>
+</html>
