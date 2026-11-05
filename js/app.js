@@ -1,2 +1,4 @@
+// Cardify - JavaScript
 
-console.log("App loaded");
+console.log("Welcome to Cardify!");
+console.log("Digital Business Card Generator");
